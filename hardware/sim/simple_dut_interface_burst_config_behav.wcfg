@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="simple_dut_interface_burst_config_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="simple_dut_interface_burst_config" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="26" />
+   <wave_markers>
+      <marker label="" time="1290000" />
+      <marker label="" time="1390000" />
+      <marker label="" time="1490000" />
+      <marker label="" time="1590000" />
+      <marker label="" time="1690000" />
+      <marker label="" time="1790000" />
+      <marker label="" time="1890000" />
+      <marker label="" time="1990000" />
+      <marker label="" time="2090000" />
+      <marker label="" time="2190000" />
+   </wave_markers>
+   <wvobject db_ref_id="1" type="logic" fp_name="/simple_dut_interface_burst_config/tb_ACLK">
+      <obj_property name="ElementShortName">tb_ACLK</obj_property>
+      <obj_property name="ObjectShortName">tb_ACLK</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/simple_dut_interface_burst_config/tb_ARESETn">
+      <obj_property name="ElementShortName">tb_ARESETn</obj_property>
+      <obj_property name="ObjectShortName">tb_ARESETn</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/simple_dut_interface_burst_config/dut/dut_interface_burst_config_v1_0_bfm_1_i/dut_interface_burst_config_0/U0/go_read">
+      <obj_property name="ElementShortName">go_read</obj_property>
+      <obj_property name="ObjectShortName">go_read</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/simple_dut_interface_burst_config/dut/dut_interface_burst_config_v1_0_bfm_1_i/dut_interface_burst_config_0/U0/go_write">
+      <obj_property name="ElementShortName">go_write</obj_property>
+      <obj_property name="ObjectShortName">go_write</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/simple_dut_interface_burst_config/dut/dut_interface_burst_config_v1_0_bfm_1_i/dut_interface_burst_config_0/U0/dut_interface_burst_config_v1_0_S01_AXI_inst/has_finished">
+      <obj_property name="ElementShortName">has_finished</obj_property>
+      <obj_property name="ObjectShortName">has_finished</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/simple_dut_interface_burst_config/dut/dut_interface_burst_config_v1_0_bfm_1_i/dut_interface_burst_config_0/U0/dut_interface_burst_config_v1_0_S01_AXI_inst/has_finished_round">
+      <obj_property name="ElementShortName">has_finished_round</obj_property>
+      <obj_property name="ObjectShortName">has_finished_round</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/simple_dut_interface_burst_config/dut/dut_interface_burst_config_v1_0_bfm_1_i/test_started">
+      <obj_property name="ElementShortName">test_started</obj_property>
+      <obj_property name="ObjectShortName">test_started</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/simple_dut_interface_burst_config/dut/dut_interface_burst_config_v1_0_bfm_1_i/dut_interface_burst_config_0/U0/dut_interface_burst_config_v1_0_S00_AXI_inst/axi_arv_arr_flag">
+      <obj_property name="ElementShortName">axi_arv_arr_flag</obj_property>
+      <obj_property name="ObjectShortName">axi_arv_arr_flag</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/simple_dut_interface_burst_config/dut/dut_interface_burst_config_v1_0_bfm_1_i/dut_interface_burst_config_0/U0/dut_interface_burst_config_v1_0_S00_AXI_inst/axi_awv_awr_flag">
+      <obj_property name="ElementShortName">axi_awv_awr_flag</obj_property>
+      <obj_property name="ObjectShortName">axi_awv_awr_flag</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/simple_dut_interface_burst_config/dut/dut_interface_burst_config_v1_0_bfm_1_i/dut_interface_burst_config_0/U0/ram_addr">
+      <obj_property name="ElementShortName">ram_addr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_addr[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/simple_dut_interface_burst_config/dut/dut_interface_burst_config_v1_0_bfm_1_i/dut_interface_burst_config_0/U0/dut_interface_burst_config_v1_0_S00_AXI_inst/mem_address">
+      <obj_property name="ElementShortName">mem_address[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_address[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/simple_dut_interface_burst_config/dut/dut_interface_burst_config_v1_0_bfm_1_i/dut_interface_burst_config_0/U0/ram_out">
+      <obj_property name="ElementShortName">ram_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_out[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="vbus" fp_name="vbus1169">
+      <obj_property name="label">dut_vector_ip</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject db_ref_id="1" type="logic" fp_name="/simple_dut_interface_burst_config/dut/dut_interface_burst_config_v1_0_bfm_1_i/dut_interface_burst_config_0/U0/dut_interface_burst_config_v1_0_S01_AXI_inst/dut_vector[29]">
+         <obj_property name="ElementShortName">[29]</obj_property>
+         <obj_property name="ObjectShortName">dut_vector[29]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="logic" fp_name="/simple_dut_interface_burst_config/dut/dut_interface_burst_config_v1_0_bfm_1_i/dut_interface_burst_config_0/U0/dut_interface_burst_config_v1_0_S01_AXI_inst/dut_vector[31]">
+         <obj_property name="ElementShortName">[31]</obj_property>
+         <obj_property name="ObjectShortName">dut_vector[31]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="logic" fp_name="/simple_dut_interface_burst_config/dut/dut_interface_burst_config_v1_0_bfm_1_i/dut_interface_burst_config_0/U0/dut_interface_burst_config_v1_0_S01_AXI_inst/dut_vector[0]">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">dut_vector[0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="logic" fp_name="/simple_dut_interface_burst_config/dut/dut_interface_burst_config_v1_0_bfm_1_i/dut_interface_burst_config_0/U0/dut_interface_burst_config_v1_0_S01_AXI_inst/dut_vector[1]">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">dut_vector[1]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject db_ref_id="1" type="vbus" fp_name="vbus1280">
+      <obj_property name="label">dut_output_IP</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject db_ref_id="1" type="logic" fp_name="/simple_dut_interface_burst_config/dut/dut_interface_burst_config_v1_0_bfm_1_i/dut_interface_burst_config_0/U0/dut_interface_burst_config_v1_0_S01_AXI_inst/dut_output[2]">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">dut_output[2]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="logic" fp_name="/simple_dut_interface_burst_config/dut/dut_interface_burst_config_v1_0_bfm_1_i/dut_interface_burst_config_0/U0/dut_interface_burst_config_v1_0_S01_AXI_inst/dut_output[3]">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">dut_output[3]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="logic" fp_name="/simple_dut_interface_burst_config/dut/dut_interface_burst_config_v1_0_bfm_1_i/dut_interface_burst_config_0/U0/dut_interface_burst_config_v1_0_S01_AXI_inst/dut_output[4]">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">dut_output[4]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="logic" fp_name="/simple_dut_interface_burst_config/dut/dut_interface_burst_config_v1_0_bfm_1_i/dut_interface_burst_config_0/U0/dut_interface_burst_config_v1_0_S01_AXI_inst/dut_output[5]">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">dut_output[5]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="logic" fp_name="/simple_dut_interface_burst_config/dut/dut_interface_burst_config_v1_0_bfm_1_i/dut_interface_burst_config_0/U0/dut_interface_burst_config_v1_0_S01_AXI_inst/dut_output[7]">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">dut_output[7]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="logic" fp_name="/simple_dut_interface_burst_config/dut/dut_interface_burst_config_v1_0_bfm_1_i/dut_interface_burst_config_0/U0/dut_interface_burst_config_v1_0_S01_AXI_inst/dut_output[24]">
+         <obj_property name="ElementShortName">[24]</obj_property>
+         <obj_property name="ObjectShortName">dut_output[24]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="logic" fp_name="/simple_dut_interface_burst_config/dut/dut_interface_burst_config_v1_0_bfm_1_i/dut_interface_burst_config_0/U0/dut_interface_burst_config_v1_0_S01_AXI_inst/dut_output[25]">
+         <obj_property name="ElementShortName">[25]</obj_property>
+         <obj_property name="ObjectShortName">dut_output[25]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/simple_dut_interface_burst_config/dut/dut_interface_burst_config_v1_0_bfm_1_i/dut_interface_burst_config_0/U0/ram_in">
+      <obj_property name="ElementShortName">ram_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_in[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/simple_dut_interface_burst_config/dut/dut_interface_burst_config_v1_0_bfm_1_i/dut_interface_burst_config_0/U0/dut_interface_burst_config_v1_0_S01_AXI_inst/slv_reg2">
+      <obj_property name="ElementShortName">slv_reg2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg2[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/simple_dut_interface_burst_config/dut/dut_interface_burst_config_v1_0_bfm_1_i/dut_interface_burst_config_0/U0/dut_interface_burst_config_v1_0_S01_AXI_inst/burst_limit">
+      <obj_property name="ElementShortName">burst_limit</obj_property>
+      <obj_property name="ObjectShortName">burst_limit</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="other" fp_name="/simple_dut_interface_burst_config/dut/dut_interface_burst_config_v1_0_bfm_1_i/dut_interface_burst_config_0/U0/dut_interface_burst_config_v1_0_S01_AXI_inst/current_state">
+      <obj_property name="ElementShortName">current_state</obj_property>
+      <obj_property name="ObjectShortName">current_state</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="other" fp_name="/simple_dut_interface_burst_config/dut/dut_interface_burst_config_v1_0_bfm_1_i/dut_interface_burst_config_0/U0/dut_interface_burst_config_v1_0_S01_AXI_inst/counter">
+      <obj_property name="ElementShortName">counter</obj_property>
+      <obj_property name="ObjectShortName">counter</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/simple_dut_interface_burst_config/output_bus_valid">
+      <obj_property name="ElementShortName">output_bus_valid</obj_property>
+      <obj_property name="ObjectShortName">output_bus_valid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/simple_dut_interface_burst_config/dut/dut_bus">
+      <obj_property name="ElementShortName">dut_bus[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dut_bus[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/simple_dut_interface_burst_config/input_bus">
+      <obj_property name="ElementShortName">input_bus[31:0]</obj_property>
+      <obj_property name="ObjectShortName">input_bus[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/simple_dut_interface_burst_config/output_bus">
+      <obj_property name="ElementShortName">output_bus[31:0]</obj_property>
+      <obj_property name="ObjectShortName">output_bus[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="vbus" fp_name="vbus1207">
+      <obj_property name="label">true_data_out</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject db_ref_id="1" type="logic" fp_name="/simple_dut_interface_burst_config/dut/dut_interface_burst_config_v1_0_bfm_1_i/dut_interface_burst_config_0/U0/dut_interface_burst_config_v1_0_S00_AXI_inst/\BRAM_GEN(0)\/\BYTE_BRAM_GEN(0)\/data_out[2]">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">data_out[2]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="logic" fp_name="/simple_dut_interface_burst_config/dut/dut_interface_burst_config_v1_0_bfm_1_i/dut_interface_burst_config_0/U0/dut_interface_burst_config_v1_0_S00_AXI_inst/\BRAM_GEN(0)\/\BYTE_BRAM_GEN(0)\/data_out[3]">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">data_out[3]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="logic" fp_name="/simple_dut_interface_burst_config/dut/dut_interface_burst_config_v1_0_bfm_1_i/dut_interface_burst_config_0/U0/dut_interface_burst_config_v1_0_S00_AXI_inst/\BRAM_GEN(0)\/\BYTE_BRAM_GEN(0)\/data_out[4]">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">data_out[4]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="logic" fp_name="/simple_dut_interface_burst_config/dut/dut_interface_burst_config_v1_0_bfm_1_i/dut_interface_burst_config_0/U0/dut_interface_burst_config_v1_0_S00_AXI_inst/\BRAM_GEN(0)\/\BYTE_BRAM_GEN(0)\/data_out[5]">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">data_out[5]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="logic" fp_name="/simple_dut_interface_burst_config/dut/dut_interface_burst_config_v1_0_bfm_1_i/dut_interface_burst_config_0/U0/dut_interface_burst_config_v1_0_S00_AXI_inst/\BRAM_GEN(0)\/\BYTE_BRAM_GEN(0)\/data_out[7]">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">data_out[7]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="logic" fp_name="/simple_dut_interface_burst_config/dut/dut_interface_burst_config_v1_0_bfm_1_i/dut_interface_burst_config_0/U0/dut_interface_burst_config_v1_0_S00_AXI_inst/\BRAM_GEN(0)\/\BYTE_BRAM_GEN(3)\/data_out[0]">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="logic" fp_name="/simple_dut_interface_burst_config/dut/dut_interface_burst_config_v1_0_bfm_1_i/dut_interface_burst_config_0/U0/dut_interface_burst_config_v1_0_S00_AXI_inst/\BRAM_GEN(0)\/\BYTE_BRAM_GEN(3)\/data_out[1]">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">data_out[1]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject db_ref_id="1" type="vbus" fp_name="vbus1195">
+      <obj_property name="label">data_out_bus</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <wvobject db_ref_id="1" type="array" fp_name="/simple_dut_interface_burst_config/dut/dut_interface_burst_config_v1_0_bfm_1_i/dut_interface_burst_config_0/U0/dut_interface_burst_config_v1_0_S00_AXI_inst/\BRAM_GEN(0)\/\BYTE_BRAM_GEN(3)\/data_out">
+         <obj_property name="ElementShortName">data_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[7:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/simple_dut_interface_burst_config/dut/dut_interface_burst_config_v1_0_bfm_1_i/dut_interface_burst_config_0/U0/dut_interface_burst_config_v1_0_S00_AXI_inst/\BRAM_GEN(0)\/\BYTE_BRAM_GEN(2)\/data_out">
+         <obj_property name="ElementShortName">data_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[7:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/simple_dut_interface_burst_config/dut/dut_interface_burst_config_v1_0_bfm_1_i/dut_interface_burst_config_0/U0/dut_interface_burst_config_v1_0_S00_AXI_inst/\BRAM_GEN(0)\/\BYTE_BRAM_GEN(1)\/data_out">
+         <obj_property name="ElementShortName">data_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[7:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/simple_dut_interface_burst_config/dut/dut_interface_burst_config_v1_0_bfm_1_i/dut_interface_burst_config_0/U0/dut_interface_burst_config_v1_0_S00_AXI_inst/\BRAM_GEN(0)\/\BYTE_BRAM_GEN(0)\/data_out">
+         <obj_property name="ElementShortName">data_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject db_ref_id="1" type="vbus" fp_name="vbus1194">
+      <obj_property name="label">data_in_bus</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <wvobject db_ref_id="1" type="array" fp_name="/simple_dut_interface_burst_config/dut/dut_interface_burst_config_v1_0_bfm_1_i/dut_interface_burst_config_0/U0/dut_interface_burst_config_v1_0_S00_AXI_inst/\BRAM_GEN(0)\/\BYTE_BRAM_GEN(3)\/data_in">
+         <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/simple_dut_interface_burst_config/dut/dut_interface_burst_config_v1_0_bfm_1_i/dut_interface_burst_config_0/U0/dut_interface_burst_config_v1_0_S00_AXI_inst/\BRAM_GEN(0)\/\BYTE_BRAM_GEN(2)\/data_in">
+         <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/simple_dut_interface_burst_config/dut/dut_interface_burst_config_v1_0_bfm_1_i/dut_interface_burst_config_0/U0/dut_interface_burst_config_v1_0_S00_AXI_inst/\BRAM_GEN(0)\/\BYTE_BRAM_GEN(1)\/data_in">
+         <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" type="array" fp_name="/simple_dut_interface_burst_config/dut/dut_interface_burst_config_v1_0_bfm_1_i/dut_interface_burst_config_0/U0/dut_interface_burst_config_v1_0_S00_AXI_inst/\BRAM_GEN(0)\/\BYTE_BRAM_GEN(0)\/data_in">
+         <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

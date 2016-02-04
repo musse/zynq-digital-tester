@@ -1,0 +1,23 @@
+/dts-v1/;
+/include/ "system-conf.dtsi"
+/ {
+};
+
+/ {
+	model = "linux-burst";
+	aliases {
+		serial0 = &uart1;
+	};
+	chosen {
+		bootargs = "console=ttyPS0,115200 earlyprintk uio_pdrv_genirq.of_id=generic-uio";
+	};
+	memory {
+		device_type = "memory";
+		reg = <0x0 0x40000000>;
+	};
+};
+
+&dut_interface_burst_config_0 {
+	compatible = "generic-uio";
+};
+

@@ -1,0 +1,14 @@
+{
+	"circuit-name": "not",
+
+	"freq-divider": 1,
+
+	"inputs": {"i": [0xA, 0xB, 0xC]},
+
+	"outputs": {"o": [0xd, 0xe, 0xf]},
+
+	"vectors": [
+		{ "in": {"i": 0x7}, "out": {"o": 0x6} },
+		{ "in": {"i": 0x4}, "out": {"o": 0x5} }
+	]
+}

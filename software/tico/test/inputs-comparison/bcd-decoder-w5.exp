@@ -1,0 +1,71 @@
+Parsing input file inputs-comparison/bcd-decoder-w5.json...
+Successfully parsed.
+config_value: 0x5FFFFFFC
+Started testing circuit bcd-decoder-w5-high.
+Input/Output signals:
+---Input signals:
+------y: 4 bits, pins = 30 32 1 2 
+---Output signals:
+------s: 7 bits, pins = 3 4 5 6 8 25 26 
+Sending test vectors...
+---Vector 1...
+------Sent inputs:
+---------y: 0x0
+------Expected outputs:
+---------s: 0x7E
+------OK: all signals as expected.
+---Vector 2...
+------Sent inputs:
+---------y: 0x1
+------Expected outputs:
+---------s: 0x30
+------OK: all signals as expected.
+---Vector 3...
+------Sent inputs:
+---------y: 0x2
+------Expected outputs:
+---------s: 0x6D
+------OK: all signals as expected.
+---Vector 4...
+------Sent inputs:
+---------y: 0x3
+------Expected outputs:
+---------s: 0x79
+------OK: all signals as expected.
+---Vector 5...
+------Sent inputs:
+---------y: 0x4
+------Expected outputs:
+---------s: 0x33
+------OK: all signals as expected.
+---Vector 6...
+------Sent inputs:
+---------y: 0x5
+------Expected outputs:
+---------s: 0x5B
+------OK: all signals as expected.
+---Vector 7...
+------Sent inputs:
+---------y: 0x6
+------Expected outputs:
+---------s: 0x5F
+------OK: all signals as expected.
+---Vector 8...
+------Sent inputs:
+---------y: 0x7
+------Expected outputs:
+---------s: 0x70
+------OK: all signals as expected.
+---Vector 9...
+------Sent inputs:
+---------y: 0x8
+------Expected outputs:
+---------s: 0x7F
+------OK: all signals as expected.
+---Vector 10...
+------Sent inputs:
+---------y: 0x9
+------Expected outputs:
+---------s: 0x7B
+------OK: all signals as expected.
+Finished testing bcd-decoder-w5-high: 10 out of 10 test vectors were correct.

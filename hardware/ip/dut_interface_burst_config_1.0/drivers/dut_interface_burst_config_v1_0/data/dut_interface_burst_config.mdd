@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER dut_interface_burst_config
+	OPTION supported_peripherals = (dut_interface_burst_config);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = dut_interface_burst_config;
+END DRIVER
