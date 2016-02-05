@@ -50,13 +50,13 @@ The project files are organized as follows:
 
 ## How to use
 
-If you need to recreate the Vivado project, open Vivado, place yourself in the `hardware/` folder and this command in the Tcl console:
+If you need to recreate the Vivado project, open Vivado, place yourself in the `hardware/` folder and type this command in the Tcl console:
 ```
 run source create-project.tcl
 ```
 The project will be created in `hardware/digital-tester`. The IP may need to be recreated through the Vivado wizard so that the BFM simulation is possible.
 
-If you need to recompile the software you must have the proper ARM compiler (`arm-xilinx-linux-gnueabi-gcc`) installed and sourced (it usually comes with the Xilinx's tools). Once this is done all you have to is run `make`. 
+If you need to recompile the software you must have the proper ARM compiler (`arm-xilinx-linux-gnueabi-gcc`) installed and sourced (it usually comes with the Xilinx's tools). Once this is set up all you have to do is run `make`. 
 In order to execute the software inside the embedded Linux environment the commands is:
 ```
 ./tico [-s -t] input-file.json
