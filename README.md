@@ -65,8 +65,8 @@ Where -s enables silent mode and -t enable time measurement. See the documentati
 
 ## Authors
 
-- Felipe Dienstmann Musse	fdmusse@gmail.com
-- Matheus Schuh				matheus.schuh@gmail.com
-- João Pedro Meireles		jpmeireles94@gmail.com
+- [@musse](https://github.com/msusse)
+- [@mschuh](https://github.com/mschuh)
+- [@jpmeireles](https://github.com/jpmeireles)
 
 Don't hesitate to contact us if you need further information, if you would like to report bugs or just enjoy a good coffee :coffee:.
